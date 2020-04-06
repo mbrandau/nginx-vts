@@ -3,7 +3,6 @@ FROM nginx:alpine AS builder
 # nginx:alpine contains NGINX_VERSION environment variable, like so:
 # ENV NGINX_VERSION 1.15.0
 
-# Our NCHAN version
 ENV VTS_VERSION 0.1.18
 
 # Download sources
