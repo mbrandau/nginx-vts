@@ -32,7 +32,7 @@ jobs:
 
       - name: Push image
         run: |
-          IMAGE_ID=hub.docker.com/mbrandau/nginx-vts
+          IMAGE_ID=mbrandau/nginx-vts
           
           # Change all uppercase to lowercase
           IMAGE_ID=$(echo $IMAGE_ID | tr '[A-Z]' '[a-z]')
